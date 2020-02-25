@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59171a90-02af-4a2e-8dec-e633536a00c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/JavaStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/CountingValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/CountingValleys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/JavaStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/CatAndMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/CatAndMouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/CountingValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/CountingValleys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/JavaStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/JavaStack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <module name="hacker-rank-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.greenlearner.hackerrank.java.*" />
+          <option name="PATTERN" value="com.greenlearner.hackerrank.problemsolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,7 +64,7 @@
       <module name="hacker-rank-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.greenlearner.hackerrank.java.*" />
+          <option name="PATTERN" value="com.greenlearner.hackerrank.problemsolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,7 +77,7 @@
       <module name="hacker-rank-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.greenlearner.hackerrank.java.*" />
+          <option name="PATTERN" value="com.greenlearner.hackerrank.problemsolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +90,7 @@
       <module name="hacker-rank-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.greenlearner.hackerrank.java.*" />
+          <option name="PATTERN" value="com.greenlearner.hackerrank.problemsolving.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +139,14 @@
       <option name="presentableId" value="Default" />
       <updated>1581278339689</updated>
     </task>
+    <task id="LOCAL-00001" summary="new commits">
+      <created>1582595138685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582595138685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,11 +162,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commits" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/CatAndMouse.java</url>
+          <url>file://$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/CatAndMouse.java</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

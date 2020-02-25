@@ -1,4 +1,4 @@
-package com.greenlearner.hackerrank.java;
+package com.greenlearner.hackerrank.problemsolving;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

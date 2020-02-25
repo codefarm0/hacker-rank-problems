@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author - GreenLearner(https://www.youtube.com/c/greenlearner)
- * https://www.hackerrank.com/challenges/java-stack/problem?h_r=next-challenge&h_v=zen
+ * https://www.hackerrank.com/challenges/java-stack/problem
  * Sample Input
  * <p>
  * {}()

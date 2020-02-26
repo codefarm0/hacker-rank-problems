@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59171a90-02af-4a2e-8dec-e633536a00c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/CatAndMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/CatAndMouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/CountingValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/CountingValleys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/JavaStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/java/JavaStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/FormingAMagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/FormingAMagicSquare.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +43,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CatAndMouse">
+  <component name="RunManager" selected="Application.FormingAMagicSquare">
     <configuration name="CatAndMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.greenlearner.hackerrank.java.CatAndMouse" />
+      <module name="hacker-rank-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.greenlearner.hackerrank.problemsolving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormingAMagicSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.greenlearner.hackerrank.problemsolving.FormingAMagicSquare" />
       <module name="hacker-rank-problems" />
       <extension name="coverage">
         <pattern>
@@ -99,13 +110,6 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="hacker-rank-problems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.greenlearner.hackerrank.Test" />
       <module name="hacker-rank-problems" />
       <extension name="coverage">
@@ -120,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FormingAMagicSquare" />
         <item itemvalue="Application.CatAndMouse" />
         <item itemvalue="Application.JavaRegex2DuplicateWords" />
         <item itemvalue="Application.JavaStringTokens" />
         <item itemvalue="Application.JavaStack" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>

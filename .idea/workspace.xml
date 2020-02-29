@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59171a90-02af-4a2e-8dec-e633536a00c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/ClimbingTheLeaderboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/ClimbingTheLeaderboard.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,13 +167,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/ClimbingTheLeaderboard.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/ClimbingTheLeaderboard.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="4" />
+          <line>34</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,14 +1,12 @@
 package com.greenlearner.hackerrank.problemsolving;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
 /**
  * @author - GreenLearner(https://www.youtube.com/c/greenlearner)
  * <p>
- * https://www.hackerrank.com/challenges/climbing-the-leaderboard/
+ * Problem - https://www.hackerrank.com/challenges/climbing-the-leaderboard/
  */
 public class ClimbingTheLeaderboard {
     // Complete the climbingLeaderboard function below.
@@ -16,11 +14,9 @@ public class ClimbingTheLeaderboard {
         int totalScoreLength = scores.length;
         int[] rankings = new int[totalScoreLength];
 
-        for (int i = 0; i < totalScoreLength; i++) {
-            if (i == 0) {
-                rankings[i] = 1;
-                continue;
-            }
+        rankings[0] = 1;
+        for (int i = 1; i < totalScoreLength; i++) {
+
             if (scores[i] == scores[i - 1]) {
                 rankings[i] = rankings[i - 1];
             } else {
@@ -30,21 +26,35 @@ public class ClimbingTheLeaderboard {
         int[] result = new int[alice.length];
         for (int i = 0; i < alice.length; i++) {
 
-            int aliceRank = Integer.MAX_VALUE;
-            int j = 0;
-            while (j < scores.length) {
-                if (alice[i] >= scores[j]) {
-                    aliceRank = rankings[j];
-                    break;
-                } else {
-                    aliceRank = rankings[j] + 1;
-                }
-                j++;
-            }
-            result[i] = aliceRank;
-
+           int aliceScore = alice[i];
+           if(aliceScore > scores[0]){
+               result[i]=1;//top
+           }else if(aliceScore < scores[scores.length-1]){
+               result[i] = rankings[rankings.length-1]+1;//bottom
+           }else{
+                int n = binarySearchForIndex(scores, 0, scores.length-1, aliceScore);
+                result[i]=rankings[n];
+           }
         }
         return result;
+    }
+
+    private static int binarySearchForIndex(int[] scores, int low, int high, int aliceScore) {
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (scores[mid] == aliceScore) {
+                return mid;
+            } else if (scores[mid] < aliceScore && aliceScore < scores[mid - 1]) {
+                return mid;
+            } else if (scores[mid] > aliceScore && aliceScore >= scores[mid + 1]) {
+                return mid + 1;
+            } else if (scores[mid] < aliceScore) {
+                high = mid - 1;
+            } else if (scores[mid] > aliceScore) {
+                low = mid + 1;
+            }
+        }
+        return -1;//it's never gonna be the case. If it's then runtime exception
     }
 
     private static final Scanner scanner = new Scanner(System.in);

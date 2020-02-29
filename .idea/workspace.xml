@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="59171a90-02af-4a2e-8dec-e633536a00c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/ClimbingTheLeaderboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greenlearner/hackerrank/problemsolving/ClimbingTheLeaderboard.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClimbingTheLeaderboard">
+  <component name="RunManager" selected="Application.TheHurdleRace">
     <configuration name="CatAndMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.greenlearner.hackerrank.java.CatAndMouse" />
       <module name="hacker-rank-problems" />
@@ -96,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaStringTokens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.greenlearner.hackerrank.java.JavaStringTokens" />
+    <configuration name="TheHurdleRace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.greenlearner.hackerrank.problemsolving.TheHurdleRace" />
       <module name="hacker-rank-problems" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheHurdleRace" />
         <item itemvalue="Application.ClimbingTheLeaderboard" />
         <item itemvalue="Application.FormingAMagicSquare" />
         <item itemvalue="Application.CatAndMouse" />
         <item itemvalue="Application.JavaRegex2DuplicateWords" />
-        <item itemvalue="Application.JavaStringTokens" />
       </list>
     </recent_temporary>
   </component>

@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 /**
  * @author - GreenLearner(https://www.youtube.com/c/greenlearner)
+ *
+ * Problem -
+ * https://www.hackerrank.com/challenges/the-hurdle-race/problem
  */
 public class TheHurdleRace {
 
